@@ -11,8 +11,8 @@ services:
     build:
       context: ..
       dockerfile: Dockerfile
-    image: ragflow-cpu:v2
-    container_name: ragflow-cpu_v2
+    image: ragflow-cpu:v0
+    container_name: ragflow-cpu_v0
     # Example configuration to set up an MCP server:
     # command:
     #   - --enable-mcpserver
@@ -63,8 +63,8 @@ services:
     build:
       context: ..
       dockerfile: Dockerfile
-    image: ragflow-gpu:v2
-    container_name: ragflow-gpu_v2
+    image: ragflow-gpu:v0
+    container_name: ragflow-gpu_v0
     # Example configuration to set up an MCP server:
     # command:
     #   - --enable-mcpserver
