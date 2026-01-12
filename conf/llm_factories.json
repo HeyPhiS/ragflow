@@ -2396,42 +2396,42 @@
             "rank": "900",
             "llm": [
                 {
-                    "llm_name": "command-r-plus",
+                    "llm_name": "command-r-plus-08-2024",
                     "tags": "LLM,CHAT,128k",
-                    "max_tokens": 131072,
+                    "max_tokens": 4096,
+                    "is_tools": true
+                },
+                {
+                    "llm_name": "command-r-08-2024",
+                    "tags": "LLM,CHAT,128k",
+                    "max_tokens": 4096,
                     "model_type": "chat",
                     "is_tools": true
                 },
                 {
-                    "llm_name": "command-r",
-                    "tags": "LLM,CHAT,128k",
-                    "max_tokens": 131072,
+                    "llm_name": "command-a-translate-08-2025",
+                    "tags": "LLM,CHAT,TRANSLATE,8k",
+                    "max_tokens": 8192,
+                    "model_type": "chat"
+                },
+                {
+                    "llm_name": "command-a-reasoning-08-2025",
+                    "tags": "LLM,CHAT,REASONING,256k",
+                    "max_tokens": 32768,
+                    "model_type": "chat"
+                },
+                {
+                    "llm_name": "command-a-vision-07-2025",
+                    "tags": "LLM,CHAT,VISION,128k",
+                    "max_tokens": 8192,
+                    "model_type": "chat"
+                },
+                {
+                    "llm_name": "command-a-03-2025",
+                    "tags": "LLM,CHAT,256k",
+                    "max_tokens": 8192,
                     "model_type": "chat",
                     "is_tools": true
-                },
-                {
-                    "llm_name": "command",
-                    "tags": "LLM,CHAT,4k",
-                    "max_tokens": 4096,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "command-nightly",
-                    "tags": "LLM,CHAT,128k",
-                    "max_tokens": 131072,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "command-light",
-                    "tags": "LLM,CHAT,4k",
-                    "max_tokens": 4096,
-                    "model_type": "chat"
-                },
-                {
-                    "llm_name": "command-light-nightly",
-                    "tags": "LLM,CHAT,4k",
-                    "max_tokens": 4096,
-                    "model_type": "chat"
                 },
                 {
                     "llm_name": "embed-english-v3.0",
@@ -5542,3 +5542,4 @@
         }
     ]
 }
+

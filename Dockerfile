@@ -139,6 +139,7 @@ FROM base AS builder
 USER root
 
 WORKDIR /ragflow
+ENV NODE_OPTIONS=--max-old-space-size=4096
 
 # install dependencies from uv.lock file
 COPY pyproject.toml uv.lock ./
